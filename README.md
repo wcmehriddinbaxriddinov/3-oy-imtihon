@@ -1,2 +1,2 @@
 # 3-oy-imtihon
-imtihon javoblari
+3 - oy 12 - dars imtihon jabolari pyhton dasturlash tilida 
