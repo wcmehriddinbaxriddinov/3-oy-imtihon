@@ -13,8 +13,8 @@ for mahsulot in mahsulotlar:
         topildi = True
 
 if topildi:
-    with open("products.json", "w", encoding="utf-8") as fayl:
-        json.dump(mahsulotlar, fayl, indent=4, ensure_ascii=False)
+    with open("products.json", "w") as fayl:
+        json.dump(mahsulotlar, fayl, indent=4)
     print("Miqdor yangilandi.")
 else:
     print("Mahsulot topilmadi.")
