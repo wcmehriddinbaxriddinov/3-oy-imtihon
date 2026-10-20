@@ -6,7 +6,7 @@ mahsulotlar = [
     ["Sut", 14000, 5]
 ]
 
-with open("products.csv", "w", newline="", encoding="utf-8") as file:
+with open("products.csv", "w", newline="") as file:
     yozuvchi = csv.writer(file)
     yozuvchi.writerow(["nom", "narx", "soni"])
     yozuvchi.writerows(mahsulotlar)
@@ -15,5 +15,5 @@ with open("products.csv", "r") as file:
     viewer = csv.DictReader(file)
     xotira = list(viewer)
 
-for mahsulot in mahsulotlar:
+for mahsulot in xotira:
     print(mahsulot)

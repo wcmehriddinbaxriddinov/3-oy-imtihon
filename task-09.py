@@ -4,8 +4,8 @@ def tashqi(son):
     return ichki
 
 kopaytiruvchi = int(input("Ko'paytiruvchini kiriting: "))
-son = int(input("Kopaytiriladigan sonni kiritng: "))
+son = int(input("Kopaytiriladigan sonni kiriting: "))
 
 natija = tashqi(son)(kopaytiruvchi)
 
-print(f"Naitja {natija}")
+print(f"Natija {natija}")

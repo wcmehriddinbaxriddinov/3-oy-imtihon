@@ -1,7 +1,7 @@
 mahsulotlar = {"non": 4000, "sut": 12000, "olma": 8000}
 
 nom = input("Mahsulot nomi kiriting: ")
-narx = int(input("Yangi narxini kiritng: "))
+narx = int(input("Yangi narxini kiriting: "))
 
 topildi = False
 
